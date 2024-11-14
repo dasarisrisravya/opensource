@@ -1,0 +1,6 @@
+X = int(input())
+A = X - (X/10)
+if X > 100:
+    B = X - 100
+Y = min(A , B)
+print(int(Y))
