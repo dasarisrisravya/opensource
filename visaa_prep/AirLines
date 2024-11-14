@@ -1,0 +1,8 @@
+X,N = list(map(int,input().split()))
+passengers_of_X = X * 100
+M = N - passengers_of_X 
+Y = M/100
+if int(Y) < Y:
+    print(int(Y) + 1)
+else:
+    print(int(Y))
