@@ -1,0 +1,7 @@
+X , Y = list(map(int, input().split()))
+count = 0
+for i in range(X):
+    if X >= Y:
+        count += 1
+        X = X-Y
+print(count)
