@@ -1,0 +1,8 @@
+X,Y,Z = list(map(int, input().split()))
+C = Z - Y
+count = 0
+for i in range(C):
+    if C >= X:
+        count += 1
+        C = C-X
+print(count)
