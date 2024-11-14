@@ -1,0 +1,8 @@
+X,Y,Z = list(map(int, input().split()))
+hours = Z * 24
+minutes = hours * 60
+assignments = X * Y
+if assignments <= minutes:
+    print("YES")
+else:
+    print("NO")
