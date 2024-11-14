@@ -1,0 +1,7 @@
+N = int(input())
+K = int(input())
+mask = 1 << (K-1)
+if (N & mask) :
+    print("true")
+else:
+    print("false")
