@@ -1,0 +1,8 @@
+X , Y , Z = list(map(int,input().split()))
+C = X + Y
+if Z >= X and Z >= C:
+    print("2")
+elif Z >= X and Z < C:
+    print("1")
+else:
+    print("0")
