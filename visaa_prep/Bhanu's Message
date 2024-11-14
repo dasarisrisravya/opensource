@@ -1,0 +1,6 @@
+S = input()
+S1 = S.split()
+if len(S1) == 2 and S1[0].startswith('+') and len(S1[0]) in [3] and len(S1[1]) == 10 and S1[1].isdigit():
+    print("Correct")
+else:
+    print("Incorrect")
